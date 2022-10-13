@@ -39,7 +39,7 @@ const TodoListLayout = styled.div`
   overflow: scroll;
   box-sizing: border-box;
   padding: 5px;
-  box-shadow: inset 0px -15px 20px rgba(246, 114, 128, 0.2);
+  margin-bottom: 50px;
   ::-webkit-scrollbar {
     display: none;
   }

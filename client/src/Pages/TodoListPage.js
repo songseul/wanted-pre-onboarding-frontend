@@ -91,7 +91,7 @@ function TodoListPage() {
   };
 
   return (
-    <div style={{ height: '100vh' }}>
+    <div>
       <Template todoLength={todoList.length}>
         <TodoList
           todoList={todoList}
