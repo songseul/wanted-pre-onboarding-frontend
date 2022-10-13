@@ -1,6 +1,6 @@
 ## #원티드 프리온보딩 프론트엔드
 
-###지원자
+### 지원자
 
 송슬기
 이메일: [seulgiandharu@gmail.com](seulgiandharu@gmail.com)
@@ -9,12 +9,40 @@
 
 # 🛠 tools
 
-```
 ![리액트아이콘](https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white '리액트아이콘') <br/>
 ![JS아이콘]("https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white" 'JS아이콘')
 ![html5아이콘]("https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" 'html아이콘')
 ![스타일컴포넌트아이콘](https://img.shields.io/badge/styled-components-DB7093?style=flat&logo=styled-components&logoColor=white '스타일컴포넌트아이콘')
 
+---
+
+### 폴더구조
+
+```
+📦 src
+┣ 📂 components
+┃ ┣ 📂 Footer
+┃ ┃ ┗ 📜 Footer.js
+┃ ┣ 📂 Home
+┃ ┃ ┣ 📜 data.js
+┃ ┃ ┗ 📜 Home.js
+┃ ┃ ┣ 📜 LoginBtn.js
+┃ ┃ ┣ 📜 RegisterBtn.js
+┃ ┣ 📂 Nav
+┃ ┃ ┗ 📜 Heading.js
+┃ ┣ 📂 Todo
+┃ ┃ ┣ 📜 Template.js
+┃ ┃ ┗ 📜 TodoInsert.js
+┃ ┃ ┣ 📜 TodoItem.js
+┃ ┃ ┣ 📜 TodoList.js
+┃ ┗ 📂 User
+┃ ┣ 📜 SignIn.js
+┃ ┗ 📜 SignUp.js
+┣ 📂 Pages
+┃ ┣ 📜 HomePage.js
+┃ ┗ 📜 TodoListPage.js
+┣ 📜 App.js
+┗ 📜 index.js
 ```
 
 ---
