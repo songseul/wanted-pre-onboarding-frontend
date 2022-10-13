@@ -91,7 +91,7 @@ function TodoListPage() {
   };
 
   return (
-    <div>
+    <div style={{ height: '100vh' }}>
       <Template todoLength={todoList.length}>
         <TodoList
           todoList={todoList}
@@ -102,7 +102,7 @@ function TodoListPage() {
           onUpdate={onUpdate}
         />
         <AddTodoButton onClick={onInsertToggle}>
-          <MdAddCircle />{' '}
+          <MdAddCircle />
         </AddTodoButton>
         {insertToggle && (
           <TodoInsert
@@ -129,5 +129,5 @@ const AddTodoButton = styled.div`
   height: 100px;
   cursor: pointer;
   font-size: 5rem;
-  color: #f67380;
+  color: #cda1eb;
 `;

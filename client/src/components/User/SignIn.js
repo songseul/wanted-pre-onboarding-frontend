@@ -40,7 +40,7 @@ const SignIn = () => {
   };
 
   return (
-    <>
+    <div style={{ height: '80vh' }}>
       <h2 style={{ textAlign: 'center', marginTop: '50px', color: '#555' }}>
         로그인
       </h2>
@@ -55,7 +55,7 @@ const SignIn = () => {
           <button type="submit">로그인</button>
         </form>
       </SignInLayout>
-    </>
+    </div>
   );
 };
 

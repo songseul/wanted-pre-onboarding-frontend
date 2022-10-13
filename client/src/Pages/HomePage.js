@@ -20,7 +20,9 @@ export default HomePage;
 
 const HomePageButton = styled.div`
   display: flex;
+  height: 300px;
   justify-content: center;
+  padding: 0 15px;
   gap: 10%;
   width: 100%;
   margin-top: 50px;

@@ -6,6 +6,7 @@ import SignUp from './components/User/SignUp';
 import Heading from './components/Nav/Heading';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './Pages/HomePage';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   const login = localStorage.getItem('accessToken');
@@ -30,6 +31,7 @@ const App = () => {
           element={login ? <Navigate to="/todo" /> : <SignUp />}
         />
       </Routes>
+      <Footer />
     </>
   );
 };

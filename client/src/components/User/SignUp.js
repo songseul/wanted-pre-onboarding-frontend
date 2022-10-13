@@ -66,7 +66,7 @@ function SignUp() {
   };
 
   return (
-    <>
+    <div style={{ height: '80vh' }}>
       <h2 style={{ textAlign: 'center', marginTop: '50px', color: '#555' }}>
         회원가입
       </h2>
@@ -105,7 +105,7 @@ function SignUp() {
           </button>
         </form>
       </SignUpLayout>
-    </>
+    </div>
   );
 }
 

@@ -31,8 +31,19 @@ export default TodoList;
 
 const TodoListLayout = styled.div`
   width: 90vw;
+  height: 600px;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
+  overflow: scroll;
+  box-sizing: border-box;
+  padding: 5px;
+  box-shadow: inset 0px -15px 20px rgba(246, 114, 128, 0.2);
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  @media (max-width: 375px) {
+    height: 500px;
+  }
 `;
