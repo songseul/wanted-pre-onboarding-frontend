@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { MdAddCircle } from 'react-icons/md';
-import { GoTrashcan, GoPencil } from 'react-icons/go';
 
 const TodoInsert = ({
   onInsertToggle,
   onInsertTodo,
   selectedTodo,
-  onRemove,
   onUpdate,
 }) => {
   const [newTodo, setNewTodo] = useState('');

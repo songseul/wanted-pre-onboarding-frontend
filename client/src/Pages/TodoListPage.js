@@ -56,7 +56,7 @@ function TodoListPage() {
       setTodoList(data);
     };
     getTodos();
-  }, [todoList]);
+  }, [todoList, token]);
 
   const onChangeSelectedTodo = todo => {
     setSelectedTodo(todo);
@@ -77,7 +77,7 @@ function TodoListPage() {
       isCompleted,
     };
     const todoUpdate = async () => {
-      const res = await axios.put(
+      await axios.put(
         `https://pre-onboarding-selection-task.shop/todos/${id}`,
         body,
         {

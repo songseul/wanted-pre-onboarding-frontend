@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import styled from 'styled-components';
 import { imageData } from './data';
 
