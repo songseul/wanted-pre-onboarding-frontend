@@ -1,9 +1,7 @@
 # 🛠 tools
 
-![리액트아이콘](https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white '리액트아이콘')
+![리액트아이콘](https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white '리액트아이콘') <br/>
 ![스타일컴포넌트아이콘](https://img.shields.io/badge/styled-components-DB7093?style=flat&logo=styled-components&logoColor=white '스타일컴포넌트아이콘')
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" width="100"/>
-<img src="https://img.shields.io/badge/styled-components-DB7093?style=flat&logo=styled-components&logoColor=white" width="100"/>
 
 # 프로젝트의 실행 방법
 
