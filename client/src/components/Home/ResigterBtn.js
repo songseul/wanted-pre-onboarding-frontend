@@ -7,7 +7,7 @@ const RegisterBtn = () => {
   const navigate = useNavigate();
   return (
     <RegisterBtnLayout>
-      <p>찐 J가 되고 싶으세요?</p>
+      <p>아직 회원이 아니세요?</p>
       <button onClick={() => navigate('/signup')}>
         <GoPencil /> 회원가입하기
       </button>
