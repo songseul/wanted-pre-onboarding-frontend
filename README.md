@@ -2,8 +2,9 @@
 
 # 지원자
 
-송슬기
-이메일: [seulgiandharu@gmail.com](seulgiandharu@gmail.com)
+### 송슬기
+
+### 이메일: [song.frontend@gmail.com](song.frontend@gmail.com)
 
 ---
 

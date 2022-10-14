@@ -130,4 +130,7 @@ const AddTodoButton = styled.div`
   cursor: pointer;
   font-size: 5rem;
   color: #6c567b;
+  @media (max-width: 375px) {
+    right: 0px;
+  }
 `;
