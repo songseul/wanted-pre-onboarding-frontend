@@ -122,12 +122,12 @@ export default TodoListPage;
 
 const AddTodoButton = styled.div`
   position: fixed;
-  right: 5px;
-  bottom: 30px;
+  right: 50px;
+  bottom: 150px;
   z-index: 100;
   width: 100px;
   height: 100px;
   cursor: pointer;
   font-size: 5rem;
-  color: #cda1eb;
+  color: #6c567b;
 `;

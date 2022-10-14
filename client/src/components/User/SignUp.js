@@ -47,6 +47,7 @@ function SignUp() {
   useEffect(() => {
     Check();
   });
+
   const onSubmit = async e => {
     e.preventDefault();
     const body = {

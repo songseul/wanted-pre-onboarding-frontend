@@ -61,6 +61,7 @@ const TodoInsert = ({
                 color: '#f67280',
                 fontSize: '1rem',
                 cursor: ' pointer',
+                display: 'inline-block',
               }}
               onClick={() => {
                 onUpdate(selectedTodo.id, newTodo, selectedTodo.isCompleted);
@@ -68,6 +69,19 @@ const TodoInsert = ({
               }}
             >
               수정
+            </button>
+            <button
+              onClick={() => {
+                onInsertToggle();
+              }}
+              style={{
+                color: '#f67280',
+                fontSize: '1rem',
+                cursor: ' pointer',
+                display: 'inline-block',
+              }}
+            >
+              취소
             </button>
           </div>
         ) : (
