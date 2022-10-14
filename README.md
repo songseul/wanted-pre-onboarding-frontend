@@ -1,6 +1,6 @@
-## #원티드 프리온보딩 프론트엔드
+# 원티드 프리온보딩 프론트엔드
 
-### 지원자
+# 지원자
 
 송슬기
 이메일: [seulgiandharu@gmail.com](seulgiandharu@gmail.com)
@@ -53,9 +53,8 @@
 
 ```
 - npm i
-  npm install을 꼭 해주셔야합니다
 - npm start
-  npm start로 실행 합니다
+
 ```
 
 ---
